@@ -8,9 +8,12 @@ import ChartPage from "./pages/chart.page";
 import NerdSpacePage from "./pages/nerdspace/nerdspace.page";
 
 // TODO:
-// patchnote
-// rajouter des politiques
-// charte de publication
+// rajouter des politiques et des polissoneries
+// formulaire d'ajoute de politique avec un gform embed en iframe
+// consulter un avocat spécialisé en droit de la presse
+// évoluer vers une construction associative
+// établir une procédure de retrait d'urgence
+// donner un buy me a coffee pour les procédures juridiques potentielles
 
 function App() {
   return (

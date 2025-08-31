@@ -44,18 +44,6 @@ const ComponentRenderingMap: Components = {
       <span {...props} />
     </li>
   ),
-  code: ({ node, inline, ...props }) =>
-    inline ? (
-      <code
-        className="px-1 py-0.5 bg-gray-100 dark:bg-gray-800 rounded text-sm font-mono"
-        {...props}
-      />
-    ) : (
-      <code
-        className="block px-3 py-2 bg-gray-100 dark:bg-gray-800 rounded text-sm font-mono whitespace-pre-wrap"
-        {...props}
-      />
-    ),
   p: ({ node, ...props }) => <p className="mb-2" {...props} />,
 };
 
