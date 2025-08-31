@@ -4,7 +4,8 @@ import HomePage from "./pages/home.page";
 import SearchPage from "./pages/search.page";
 import PoliticProfilePage from "./pages/politicProfile.page";
 import ContactPage from "./pages/contact.page";
-import BottomAccordion from "./components/custom/bottomAccordion";
+import ChartPage from "./pages/chart.page";
+import NerdSpacePage from "./pages/nerdspace/nerdspace.page";
 
 // TODO:
 // patchnote
@@ -21,9 +22,10 @@ function App() {
           <Route path="/search" element={<SearchPage />} />
           <Route path="/search/:politicId" element={<PoliticProfilePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/chart" element={<ChartPage />} />
+          <Route path="/nerd" element={<NerdSpacePage />} />
         </Routes>
       </main>
-      <BottomAccordion />
     </div>
   );
 }

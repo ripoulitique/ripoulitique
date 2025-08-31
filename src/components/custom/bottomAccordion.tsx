@@ -10,7 +10,7 @@ import {
 
 export default function BottomAccordion() {
   return (
-    <div className="p-8 max-w-7xl mx-auto">
+    <div className="p-8 w-full mx-auto">
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-lg">

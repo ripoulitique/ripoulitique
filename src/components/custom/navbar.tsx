@@ -38,6 +38,18 @@ export default function MainNavBar() {
                   >
                     <Link to="/contact">Contact</Link>
                   </NavigationMenuLink>
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
+                  >
+                    <Link to="/chart">Charte</Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink
+                    asChild
+                    className={navigationMenuTriggerStyle()}
+                  >
+                    <Link to="/nerd">Statistiques et évolutions</Link>
+                  </NavigationMenuLink>
                 </NavigationMenuList>
               </NavigationMenu>
             </div>
